@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+        <style>
+            *{font-family: 'Gorditas', cursive;}
+            .div1 {border: solid 2px plum;
+                    padding-bottom: 50px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    background-color: #FDA7DF;}
+            .div2 {border: solid 2px plum;
+                    padding-bottom: 50px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    background-color: #a29bfe;}
+            .div3 {border: solid 2px plum;
+                    padding-bottom: 50px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    background-color: #FDA7DF;}
+            .grid {display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    column-gap: 20px;}
+            ul {list-style: none;
+                border: solid 2px black;
+                display: inline-block;
+                padding-left: 0;
+                margin-left: 330px;}
+            li {float: left;}
+            li a {text-decoration: none;
+                color: darkorchid;
+                background-color: #ffcdff;
+                display: block;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: center;}
+            li a:hover {background-color: violet;}
+
+            li  a.active {background-color: violet;
+                        color: white;}
+        </style>
+    </head>
+    <body>
+        <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="introduction.html">Intorduction</a></li>
+            <li><a class="active" href="/">Professional Life</a></li>
+            <li><a href="personal.html">Personal Life</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+            <h1>Professional Life</h1>
+            <div class="grid">
+            <div class="div1">
+                <h2>Cantina 76</h2>
+                <p>I worked as a hostess at <a href="http://www.cantina76.com/" target="blank">Cantina 76</a> in Mount Pleasant, SC over the summer. It was great experience in customer service and working in the food and beverage industry.</p>
+                    <img src="Images/Cantina-76.jpeg" width="200px">        
+        </div>
+        <div class="div2">
+            <h2>Nannying</h2>
+            <p>Over the summer I also worked as a nanny. I watched an 8th month old baby boy named Patrick everyday. It was a big responsibilty to take care of a baby and the family's pets, but it was a really fun job to have.</p>
+                    <img src="Images/IMG_6506.jpeg" width="200px">
+        </div>
+        <div class="div3">
+            <h2>Working in MA</h2>
+            <p>When I spent the summers in Massachusettes, I had two other jobs. I worked at the <a href="https://www.beauporthotel.com/" target="blank">Beauport Hotel</a> and the <a href="https://www.antiquetablerestaurants.com/manchester-by-the-sea" target="blank">Antique Table Restaurant</a>. They were also great customer service experiences.</p>
+                    <img src="Images/hotel.jpeg" width="200px">
+                    <img src="Images/Antique.webp" width="200">
+        </div>
+       </div> </div>
+    </body>
+</html>
